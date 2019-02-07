@@ -9,5 +9,5 @@ ATENÇÃO:Não esqueça que de rodar o npm install para baixar as libs dentro da
 ## Preview
 
 <p align="center">
-    <img src="app-demo.png"/>
+    <img src="app-demo.gif"/>
 </p>
