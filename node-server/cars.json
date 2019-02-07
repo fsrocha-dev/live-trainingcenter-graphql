@@ -1,0 +1,47 @@
+[
+	{
+		"id":1,
+		"name": "Golf",
+		"doors": 2,
+		"photo": "https://acs2.blob.core.windows.net/imgcatalogo/l/VA_c06fb51f6978450fa6914929c7a34a1a.jpg",
+		"price": "120.000,00",
+		"manufacture": 2018,
+		"type": "Novo",
+		"mechanic": [
+			{
+				"motor": 3.0,
+				"gearshift": 5
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Honda Civic",
+		"doors": 4,
+		"photo": "https://s1.cdn.autoevolution.com/images/news/2017-honda-civic-sedan-debuts-in-europe-only-available-with-15l-turbo-117904_1.jpeg",
+		"price": "50.000,00",
+		"manufacture": 2017,
+		"type": "Usado",
+		"mechanic": [
+			{
+				"motor": 2.0,
+				"gearshift": 5
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Toyota Corola",
+		"doors": 4,
+		"photo": "http://s2.glbimg.com/0zPa9G2vMGDDgQGgE3S5K13COik=/e.glbimg.com/og/ed/f/original/2014/03/11/toyota_corolla_home.jpg",
+		"price": "180.000,00",
+		"manufacture": 2015,
+		"type": "Novo",
+		"mechanic": [
+			{
+				"motor": 3.2,
+				"gearshift": 6
+			}
+		]
+	}
+]

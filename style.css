@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+body {
+  background: #282a2d;
+}
+.header {
+  font-family: 'Shrikhand', cursive;
+  color: #F6F930;
+  display: grid;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  max-width: 600px;
+  margin: 20px auto;
+  color:white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.carros {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+.carros li {
+  cursor: pointer;
+  padding: 15px;
+  margin-right: 20px;
+  border-bottom: 3px solid #F6F930;
+}
+
+.carros li p {
+  margin: 0px;
+  padding-top: 8px;
+}
+
+.carros .ativo {
+  background: #0e1013;
+}
+
+.carro-item {
+  box-shadow: 0 2px 6px 1px rgba(0, 0, 0, .3);
+  border-radius: 2px;
+  padding: 20px 0;
+  background: #2F2F2F;
+  color: #F6F930;
+}
+
+.carro-item h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0 20px 15px 20px;
+}
+
+.carro-lista {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+  margin: 0 20px;
+}
+
+.carro-lista li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid #282a2d;
+  padding: 10px;
+  margin: -1px;
+  font-size: 14px;
+  font-style: italic; 
+}
